@@ -1,0 +1,12 @@
+CollapsedEntities:
+  type: stringset
+  value:
+    size: 6
+    values:
+      - Base.png
+      - Box.mesh
+      - MaterialParams.png
+      - Normal.png
+      - PBR.mat
+      - pbr.ss_graph
+  options: 4
