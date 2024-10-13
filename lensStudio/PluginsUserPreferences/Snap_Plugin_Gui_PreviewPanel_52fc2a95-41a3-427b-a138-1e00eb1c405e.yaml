@@ -1,10 +1,10 @@
 backCameraMultimedia:
   type: string
-  value: PreviewResources.bundle/Video/World/Beach.mp4
+  value: PreviewResources.bundle/Video/Idle/Idle.mp4
   options: 4
 cameraType:
   type: int
-  value: 0
+  value: 1
   options: 4
 customSources:
   type: pathset
@@ -33,7 +33,7 @@ lastPosition:
   options: 4
 lastRotation:
   type: vec3
-  value: {x: 0.000000, y: 0.000000, z: 0.000000}
+  value: {x: -16.049957, y: 4.499958, z: 0.000000}
   options: 4
 mirrorHorizontally:
   type: bool
@@ -41,7 +41,7 @@ mirrorHorizontally:
   options: 4
 previewSource:
   type: string
-  value: /Users/sophiecho/Desktop/Lens Studio.app/Contents/MacOS/../Resources/InteractiveResources.bundle/Scenes/Sunlit Room
+  value: "C:/Program Files/Snap Inc/Lens Studio/InteractiveResources.bundle/Scenes/Colorful Home"
   options: 4
 previewType:
   type: string
