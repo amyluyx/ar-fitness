@@ -1,10 +1,10 @@
 backCameraMultimedia:
   type: string
-  value: PreviewResources.bundle/Video/Idle/Idle.mp4
+  value: PreviewResources.bundle/Video/World/Beach.mp4
   options: 4
 cameraType:
   type: int
-  value: 1
+  value: 0
   options: 4
 customSources:
   type: pathset
@@ -13,11 +13,11 @@ customSources:
   options: 4
 deviceType:
   type: string
-  value: Unknown
+  value: Spectacles
   options: 4
 frameRate:
   type: int
-  value: 60
+  value: 30
   options: 4
 frontCameraMultimedia:
   type: string
@@ -25,15 +25,15 @@ frontCameraMultimedia:
   options: 4
 fullscreenSpectaclesSimulation:
   type: bool
-  value: false
+  value: true
   options: 4
 lastPosition:
   type: vec3
-  value: {x: 0.000000, y: 0.000000, z: 0.000000}
+  value: {x: 0.000000, y: 0.000000, z: 42.000000}
   options: 4
 lastRotation:
   type: vec3
-  value: {x: -16.049957, y: 4.499958, z: 0.000000}
+  value: {x: 0.000000, y: 0.000000, z: 0.000000}
   options: 4
 mirrorHorizontally:
   type: bool
@@ -41,7 +41,7 @@ mirrorHorizontally:
   options: 4
 previewSource:
   type: string
-  value: "C:/Program Files/Snap Inc/Lens Studio/InteractiveResources.bundle/Scenes/Colorful Home"
+  value: "C:/Program Files/Snap Inc/Lens Studio/InteractiveResources.bundle/Scenes/Sunlit Room"
   options: 4
 previewType:
   type: string
@@ -57,7 +57,7 @@ recordTrackingData:
   options: 4
 simulatedDevice:
   type: string
-  value: Spectacles (2024)
+  value: No Simulation
   options: 4
 stereoEye:
   type: string

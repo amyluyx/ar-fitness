@@ -1,5 +1,5 @@
 ExternalSources:
   type: "std::map<class Es::Uuid,class Es::Path,struct std::less<class Es::Uuid>,class std::allocator<struct std::pair<class Es::Uuid const ,class Es::Path> > >"
   value:
-    - 87a2a055-cdfb-434d-8f88-1437c22c4572: "C:/Users/minay/OneDrive/Pictures/dubhacks/dog1.fbx"
+    - c065e237-d11a-4f0e-b5c6-1eb7c46a24f6: "C:/Users/minay/OneDrive/Pictures/dubhacks/dog1.fbx"
   options: 4

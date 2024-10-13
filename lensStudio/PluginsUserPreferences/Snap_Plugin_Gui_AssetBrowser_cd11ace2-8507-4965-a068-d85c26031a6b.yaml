@@ -1,44 +1,16 @@
 CollapsedEntities:
   type: stringset
   value:
-    size: 38
+    size: 10
     values:
-      - Base.png
-      - Box.mesh
-      - Echopark.hdr
-      - Image 1.mat
-      - Image.mat
-      - Image.png
-      - MaterialParams.png
-      - Menu icon.js
-      - Normal.png
-      - PBR 1.mat
-      - PBR 2.mat
-      - PBR.mat
-      - World Mesh.mat
-      - World Mesh.worldmesh
-      - dog1.fbx/.hidden
-      - dog1.fbx/.hidden/collar
-      - dog1.fbx/.hidden/white
-      - dog1.fbx/Materials
-      - dog1.fbx/Materials/collar
-      - dog1.fbx/Materials/ear
-      - dog1.fbx/Materials/eye
-      - dog1.fbx/Materials/fur.001
-      - dog1.fbx/Materials/nose
-      - dog1.fbx/Meshes
-      - dog1.fbx/Meshes/Cube.001
-      - dog1.fbx/Meshes/Plane
-      - dog1.fbx/Meshes/collar
-      - dog1.fbx/Meshes/dog body
-      - dog1.fbx/Meshes/dog ear
-      - dog1.fbx/Meshes/dog eye
-      - dog1.fbx/Meshes/dog nose
-      - dog1.fbx/dog1
-      - flat.ss_graph
-      - menu.js
-      - pbr 1.ss_graph
-      - pbr.ss_graph
-      - test.js
-      - world_mesh.ss_graph
+      - Kitty
+      - Kitty 1
+      - PBR 3.mat
+      - Plane.mesh
+      - SpectaclesInteractionKit.lspkg
+      - SpectaclesInteractionKit.lspkg/package.native
+      - Surface Detection.lspkg/package.native
+      - SurfaceDetection__ADD_TO_SCENE.prefab
+      - pbr 2.ss_graph
+      - switchObjectOnOff.js
   options: 4
