@@ -1,4 +1,4 @@
-- !<Scene/0a1ccb1a-fe88-4fbb-9883-e3af3c75fd99>
+- !<Scene/641462bf-a2a7-458f-acaa-11170d4ea3d4>
   PackagePath: ""
   objects:
     - !<own> 3d64a89f-ec18-4743-8107-649983503332
@@ -8,12 +8,13 @@
     - !<own> d38b3f2b-1959-41c4-b816-2f8c28dcd969
     - !<own> a302962e-f421-45f0-93f3-16ca9da15b93
     - !<own> 7b467266-922a-4078-9127-2ce5eaca297f
+    - !<own> bda9a799-6213-43c0-a641-2774c33f2f6d
   layers: !<Layers/267ee9a7-aff2-4f9d-9a49-f71214747d03>
     userLayers:
       []
     HasOrtho: true
-  RenderOutput: !<reference> 923415f5-4245-4675-ade1-6d69d6d23e71
-  RenderPreviewOutput: !<reference> 923415f5-4245-4675-ade1-6d69d6d23e71
+  RenderOutput: !<reference> adc62c34-e4f5-4d9f-b2b7-284bdfd2471f
+  RenderPreviewOutput: !<reference> adc62c34-e4f5-4d9f-b2b7-284bdfd2471f
   RenderOverlayOutput: !<reference> 00000000-0000-0000-0000-000000000000
   PhysicsRootWorldSettings: !<reference> 00000000-0000-0000-0000-000000000000
 - !<SceneObject/0005641c-028d-459a-0000-000000014b4d>
@@ -737,7 +738,7 @@
   PrefabRemaps:
     []
   Name: yoga mat
-  Enabled: true
+  Enabled: false
   Layers: 1
   LocalTransform:
     position: {x: -22.000000, y: 0.000000, z: -60.000000}
@@ -1996,22 +1997,6 @@
   BlendNormals: false
   BlendShapes:
     {}
-- !<ScriptComponent/2801cf03-c821-42cb-a5fc-5badf3e5f033>
-  PrefabRemaps:
-    []
-  Name: switchObjectOnOff
-  Enabled: false
-  ScriptAsset: !<reference> 0f6b4e18-aa44-4708-89c5-83f9fd612839
-  ScriptInputsDefault:
-    {}
-  ScriptTypesDefault:
-    {}
-  ScriptInputs:
-    "":
-      object1: !<reference.SceneObject> 0eff7980-1d89-4a07-b4e0-fcfa54366871
-  ScriptTypes:
-    "":
-      {}
 - !<SceneObject/2897def7-edf3-46c4-8ba2-d1c681e36794>
   PrefabRemaps:
     []
@@ -2701,7 +2686,7 @@
   Enabled: false
   Layers: 1
   LocalTransform:
-    position: {x: 0.000000, y: 10.000000, z: -60.000000}
+    position: {x: 0.000000, y: 12.750446, z: -60.000000}
     rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
     scale: {x: 1.000000, y: 1.000000, z: 1.000000}
     hasSegmentScaleCompensation: false
@@ -2787,11 +2772,11 @@
   Layers: 1
   LocalTransform:
     position: {x: 0.000000, y: 0.000000, z: 0.000000}
-    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
     scale: {x: 1.000000, y: 1.000000, z: 1.000000}
     hasSegmentScaleCompensation: false
   Children:
-    []
+    - !<own> e802fdfb-4f1d-4e38-9e89-0f99134358fe
   Components:
     - !<own> 5a22c9de-ad2a-497f-8772-c4e3b7dd2b45
     - !<own> f3246380-acc9-4bfb-ac90-1e7fb9c06a57
@@ -2899,6 +2884,21 @@
   ScriptTypes:
     "":
       {}
+- !<SceneObject/3fcb4a82-4d18-4e93-981f-c7a2020985d2>
+  PrefabRemaps:
+    []
+  Name: squat rack
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
 - !<Text/40bb8181-86bc-47c9-8bc3-62c58666cf79>
   PrefabRemaps:
     []
@@ -3291,7 +3291,7 @@
     - !<own> 57b52769-a77e-47cd-a7c6-bfa280b1544a
     - !<own> f6132314-8dd2-491c-a881-9fad7d868fb1
     - !<own> e4ee2495-7417-41c8-8465-d7f2209e61b5
-    - !<own> 2801cf03-c821-42cb-a5fc-5badf3e5f033
+    - !<own> 5d98ea0f-3aec-428e-a573-78a866778e88
 - !<ColliderComponent/480f9314-d017-4ebd-9939-9451d0ca37b4>
   PrefabRemaps:
     []
@@ -3824,6 +3824,49 @@
   ScriptTypes:
     "":
       {}
+- !<RenderMeshVisual/51f765b7-ebf1-4841-88d3-3b63f263e930>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 725b71a3-5897-4e78-86ed-053d6ebfdd2c
+  Mesh: !<reference> 52aeaa72-1f6f-41f8-bcdd-d6683d5ebab7
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+  RayTracing: !<RayTracingVisualSettings/00000000-0000-0000-0000-000000000000>
+    Reflections:
+      caster: false
+      receiver: false
+      receiverLayers: 1
+      planar:
+        enabled: true
+        roughHarden: 0.500000
+        roughCurve: 2.000000
+    IndirectDiffuse:
+      caster: false
+      receiver: false
+      receiverLayers: 1
+    AmbientOcclusion:
+      caster: false
+      receiver: false
+      receiverLayers: 1
+    Shadows:
+      caster: false
+      receiver: false
+      receiverLayers: 1
+    Material: !<reference> 00000000-0000-0000-0000-000000000000
+    HideFromCamera: false
 - !<SceneObject/52a65c01-5397-4032-b694-e0d517c77890>
   PrefabRemaps:
     []
@@ -4230,7 +4273,7 @@
   DeviceProperty: All
   AspectPreset: Custom
   OitLayers: NoOit
-  RenderTarget: !<reference> 923415f5-4245-4675-ade1-6d69d6d23e71
+  RenderTarget: !<reference> adc62c34-e4f5-4d9f-b2b7-284bdfd2471f
   DepthStencilRenderTarget: !<reference> 00000000-0000-0000-0000-000000000000
   MaskTexture: !<reference> 00000000-0000-0000-0000-000000000000
   RayTracing: !<reference> 00000000-0000-0000-0000-000000000000
@@ -4341,6 +4384,23 @@
     bottom: 0.000000
     right: 0.000000
     top: 0.000000
+- !<ScriptComponent/5d98ea0f-3aec-428e-a573-78a866778e88>
+  PrefabRemaps:
+    []
+  Name: switchObjectOnOff
+  Enabled: true
+  ScriptAsset: !<reference> 92491ae0-c093-4e01-af05-ed582e7deea9
+  ScriptInputsDefault:
+    {}
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      sObject: !<reference.SceneObject> bda9a799-6213-43c0-a641-2774c33f2f6d
+      close: !<reference.SceneObject> e802fdfb-4f1d-4e38-9e89-0f99134358fe
+  ScriptTypes:
+    "":
+      {}
 - !<SceneObject/5e254329-91bc-4ec5-ba1a-d4e9e9875381>
   PrefabRemaps:
     []
@@ -6571,6 +6631,21 @@
     - !<own> e70ca4bc-d3fc-4b07-abd2-b4cd3469191d
   Components:
     []
+- !<SceneObject/9b20b6e6-d7d6-4dfb-8a28-1e9f449bf524>
+  PrefabRemaps:
+    []
+  Name: towel
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
 - !<RenderMeshVisual/9b7ca9f3-1664-47f2-b849-9fa5ebf8b5d5>
   PrefabRemaps:
     []
@@ -7303,7 +7378,6 @@
     - !<own> c200a365-4967-44d2-8db3-f94a7cc3d628
     - !<own> ddc90212-dc07-47d3-8802-4081c33ea3fc
     - !<own> 5fd22304-4418-47fa-97af-d874a25e6310
-    - !<own> e802fdfb-4f1d-4e38-9e89-0f99134358fe
   Components:
     []
 - !<ScriptComponent/a614f0b8-c74f-47b2-86b7-bac1bfd33d0c>
@@ -7809,6 +7883,22 @@
   ScriptTypes:
     "":
       {}
+- !<SceneObject/b966a799-08ff-4a5e-ad9b-d4b9d2a44547>
+  PrefabRemaps:
+    - 51f765b7-ebf1-4841-88d3-3b63f263e930: 485cca2c-a2fb-4cff-99a5-17abb56e0be6
+    - b966a799-08ff-4a5e-ad9b-d4b9d2a44547: 7aec3785-c0d7-4677-829c-4369b50353ca
+  Name: Unit_Plane__PLACE_IN_OBJECTS_PANEL
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: -61.301064}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 20.000000, y: 20.000000, z: 20.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 51f765b7-ebf1-4841-88d3-3b63f263e930
 - !<RenderMeshVisual/b9b48bb9-5220-4d3d-9617-47720b608ffc>
   PrefabRemaps:
     []
@@ -8051,6 +8141,22 @@
     - !<own> 79d47226-a28a-4152-98c3-4727bba93a3b
   Components:
     - !<own> 27248607-a524-44a1-a208-26316c1be5c4
+- !<SceneObject/bda9a799-6213-43c0-a641-2774c33f2f6d>
+  PrefabRemaps:
+    []
+  Name: gym objects
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 3fcb4a82-4d18-4e93-981f-c7a2020985d2
+    - !<own> 9b20b6e6-d7d6-4dfb-8a28-1e9f449bf524
+  Components:
+    []
 - !<SceneObject/bdc86c05-83fe-491d-b24e-802dcd9fe0c8>
   PrefabRemaps:
     []
@@ -9720,6 +9826,7 @@
     - !<own> 393cd012-a449-4326-977a-9652a8e20b2f
     - !<own> 6422119a-0c40-4fe4-8ab0-3deb211c92c8
     - !<own> 496c326e-6668-488a-856b-ff7edf6f062d
+    - !<own> b966a799-08ff-4a5e-ad9b-d4b9d2a44547
   Components:
     []
 - !<SceneObject/e89d31f8-a004-4e87-8f8a-0d379cd9f22c>

@@ -1,4 +1,4 @@
-- !<RenderTarget/923415f5-4245-4675-ade1-6d69d6d23e71>
+- !<RenderTarget/adc62c34-e4f5-4d9f-b2b7-284bdfd2471f>
   PackagePath: ""
   UseScreenResolution: true
   Resolution:
@@ -9,5 +9,5 @@
   MSAAStrategy: OnlyWhenRequired
   ClearColorOption: BackgroundTexture
   ClearColor: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
-  InputTexture: !<reference> 996c6f4e-b2ad-4117-9e3e-3db82e6e97f5
+  InputTexture: !<reference> 00000000-0000-0000-0000-000000000000
   DepthBuffer: Auto

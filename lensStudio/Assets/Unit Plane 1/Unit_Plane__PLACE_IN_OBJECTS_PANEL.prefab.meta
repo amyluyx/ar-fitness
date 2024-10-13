@@ -1,0 +1,83 @@
+- !<AssetImportMetadata/617ac1f6-d3b9-4ac6-b5c2-11979a378114>
+  ImportedAssetIds:
+    ObjectPrefab: !<reference> ed9fa9ce-9126-418c-967c-05c3b1360d1b
+  ImporterName: ObjectPrefabImporter
+  PrimaryAsset: !<reference> ed9fa9ce-9126-418c-967c-05c3b1360d1b
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    ObjectPrefab: !<own> d37cfd6e-3ef6-41f7-b8de-0270e32e4fb1
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings/2447cfb9-837d-4435-a5b9-4e289954212d>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ObjectPrefab/52497eea-8cd1-4d81-80d0-6ee08199dbf2>
+  PackagePath: Unit_Plane__PLACE_IN_OBJECTS_PANEL
+  objects:
+    - !<own> 648e63d1-b778-4b9b-bf97-f397c3d39d98
+  LazyLoading: false
+  RetainAssets: true
+- !<SceneObject/648e63d1-b778-4b9b-bf97-f397c3d39d98>
+  PrefabRemaps:
+    []
+  Name: Unit_Plane__PLACE_IN_OBJECTS_PANEL
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 9be32e51-f926-40c0-ac75-6b02d29ae6a2
+- !<RenderMeshVisual/9be32e51-f926-40c0-ac75-6b02d29ae6a2>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> c2eb04e3-79cf-49ac-b326-de0a6b64415b
+  Mesh: !<reference> 2e414817-f453-4b02-8491-a0b2216dabd7
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+  RayTracing: !<RayTracingVisualSettings/00000000-0000-0000-0000-000000000000>
+    Reflections:
+      caster: false
+      receiver: false
+      receiverLayers: 1
+      planar:
+        enabled: true
+        roughHarden: 0.500000
+        roughCurve: 2.000000
+    IndirectDiffuse:
+      caster: false
+      receiver: false
+      receiverLayers: 1
+    AmbientOcclusion:
+      caster: false
+      receiver: false
+      receiverLayers: 1
+    Shadows:
+      caster: false
+      receiver: false
+      receiverLayers: 1
+    Material: !<reference> 00000000-0000-0000-0000-000000000000
+    HideFromCamera: false
+- !<ObjectPrefabAssetData/d37cfd6e-3ef6-41f7-b8de-0270e32e4fb1>
+  SourceRemaps:
+    - 67927c79-0661-468b-b59d-e3b9df3702f5: 9be32e51-f926-40c0-ac75-6b02d29ae6a2
+    - ef33328f-d788-48e9-a0d6-2077d2c89349: 648e63d1-b778-4b9b-bf97-f397c3d39d98
+  SourceState: !<own> 52497eea-8cd1-4d81-80d0-6ee08199dbf2
