@@ -25,15 +25,18 @@
   MaxVisibility: Editable
   ScriptInputsHidden:
     close: false
+    props: false
     sObject: false
   ScriptTypesHidden:
     {}
   DefaultScriptInputs:
     - sObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
       close: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      props: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
   ScriptTypes:
     -
       {}
   InputLines:
+    - // @input SceneObject props
     - // @input SceneObject sObject
     - // @input SceneObject close

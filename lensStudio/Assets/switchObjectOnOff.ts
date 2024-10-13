@@ -1,12 +1,16 @@
 import { Interactable } from 'SpectaclesInteractionKit/Components/Interaction/Interactable/Interactable';
 import { InteractorEvent } from 'SpectaclesInteractionKit/Core/Interactor/InteractorEvent';
+import WorldCameraFinderProvider from 'SpectaclesInteractionKit/Providers/CameraProvider/WorldCameraFinderProvider';
 import { SIK } from 'SpectaclesInteractionKit/SIK';
+
 
 @component
 export class ExampleInteractionScript extends BaseScriptComponent {
   //@input
   //toggleScript : ScriptComponent
-  
+  @input
+  props : SceneObject
+
   @input
   sObject : SceneObject
 
@@ -35,6 +39,13 @@ export class ExampleInteractionScript extends BaseScriptComponent {
     let onTriggerStartCallback = (event: InteractorEvent) => {
       this.sObject.enabled = true;
       this.close.enabled = false;
+      this.props.enabled = true;
+
+      let pos = this.props.getTransform().getWorldPosition();
+      const cpos = WorldCameraFinderProvider.getInstance().getWorldPosition();
+      pos.x = cpos.x;
+      pos.z = cpos.z;
+      this.props.getTransform().setWorldPosition(pos);
       // Function to switch the scene object on or off based on the toggle value
       function switchObjectOnOff(toggleValue: boolean): void {
         this.sObject.enabled = toggleValue;

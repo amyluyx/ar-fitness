@@ -1,6 +1,8 @@
 ExternalSources:
   type: "std::map<class Es::Uuid,class Es::Path,struct std::less<class Es::Uuid>,class std::allocator<struct std::pair<class Es::Uuid const ,class Es::Path> > >"
   value:
+    - 20c30403-9de6-4bdc-aa5d-a7ce691ef1e1: "C:/Users/minay/OneDrive/Pictures/dubhacks/dog1.fbx"
+    - 3f7325ea-3d8e-4713-a5e2-fa8eaf8264f5: "C:/Users/minay/OneDrive/Pictures/dubhacks/kettlebell.fbx"
     - a57146ef-6ce7-4fb1-b938-6f090d520e49: "C:/Users/amylu/Downloads/switchObjectOnOff.ts"
     - c065e237-d11a-4f0e-b5c6-1eb7c46a24f6: "C:/Users/minay/OneDrive/Pictures/dubhacks/dog1.fbx"
   options: 4

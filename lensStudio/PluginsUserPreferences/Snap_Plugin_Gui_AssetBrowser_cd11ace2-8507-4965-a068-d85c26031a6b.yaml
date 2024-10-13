@@ -1,8 +1,12 @@
 CollapsedEntities:
   type: stringset
   value:
-    size: 481
+    size: 509
     values:
+      - Caveat.ttf
+      - Echopark.hdr
+      - Echopark.hdr/Diffuse
+      - Echopark.hdr/Specular
       - Hamburger_icon.svg.png
       - Image 2.mat
       - ImageMaterial 1.mat
@@ -72,6 +76,7 @@ CollapsedEntities:
       - Kitty/Resources/Textures/cat_normal_02.pvr
       - Kitty/Resources/Textures/cat_param_02.pvr
       - Menu icon.js
+      - Merriweather.ttf
       - PBR 1.mat
       - PBR 2.mat
       - PBR 3.mat
@@ -161,17 +166,10 @@ CollapsedEntities:
       - SpectaclesInteractionKit/Assets/Textures/SIKContainerExampleImage.jpg
       - SpectaclesInteractionKit/Assets/Textures/SIKLogo.png
       - SpectaclesInteractionKit/Assets/Textures/ScrollBarRectangle.png
-      - SpectaclesInteractionKit/Components
-      - SpectaclesInteractionKit/Components/Helpers
       - SpectaclesInteractionKit/Components/Helpers/CapsuleMeshCustomizer.ts
-      - SpectaclesInteractionKit/Components/Helpers/InteractableAudioFeedback.ts
-      - SpectaclesInteractionKit/Components/Helpers/InteractableColorFeedback.ts
-      - SpectaclesInteractionKit/Components/Helpers/InteractableOutlineFeedback.ts
-      - SpectaclesInteractionKit/Components/Helpers/InteractableSquishFeedback.ts
       - SpectaclesInteractionKit/Components/Helpers/ScreenTransformAdapter.ts
       - SpectaclesInteractionKit/Components/Helpers/SliderFeedback.ts
       - SpectaclesInteractionKit/Components/Helpers/ToggleFeedback.ts
-      - SpectaclesInteractionKit/Components/Interaction
       - SpectaclesInteractionKit/Components/Interaction/Billboard
       - SpectaclesInteractionKit/Components/Interaction/Billboard/Billboard.ts
       - SpectaclesInteractionKit/Components/Interaction/Billboard/BillboardController.ts
@@ -186,10 +184,6 @@ CollapsedEntities:
       - SpectaclesInteractionKit/Components/Interaction/Headlock/HeadlockController.ts
       - SpectaclesInteractionKit/Components/Interaction/Headlock/HeadlockRotationCalculator.ts
       - SpectaclesInteractionKit/Components/Interaction/Headlock/HeadlockTranslationCalculator.ts
-      - SpectaclesInteractionKit/Components/Interaction/Interactable
-      - SpectaclesInteractionKit/Components/Interaction/Interactable/Interactable.ts
-      - SpectaclesInteractionKit/Components/Interaction/InteractableManipulation
-      - SpectaclesInteractionKit/Components/Interaction/InteractableManipulation/InteractableManipulation.ts
       - SpectaclesInteractionKit/Components/Interaction/InteractorCursor
       - SpectaclesInteractionKit/Components/Interaction/InteractorCursor/CircleVisual.ts
       - SpectaclesInteractionKit/Components/Interaction/InteractorCursor/Cursor.mat
@@ -273,6 +267,7 @@ CollapsedEntities:
       - SpectaclesInteractionKit/Components/UI/Slider/Slider.ts
       - SpectaclesInteractionKit/Components/UI/ToggleButton
       - SpectaclesInteractionKit/Components/UI/ToggleButton/ToggleButton.ts
+      - SpectaclesInteractionKit/Core
       - SpectaclesInteractionKit/Core/ConfigurationValidator
       - SpectaclesInteractionKit/Core/ConfigurationValidator/ConfigurationValidator.ts
       - SpectaclesInteractionKit/Core/HandInteractor
@@ -280,6 +275,7 @@ CollapsedEntities:
       - SpectaclesInteractionKit/Core/InteractionManager
       - SpectaclesInteractionKit/Core/InteractionManager/EventDispatcher.ts
       - SpectaclesInteractionKit/Core/InteractionManager/InteractionManager.ts
+      - SpectaclesInteractionKit/Core/Interactor
       - SpectaclesInteractionKit/Core/Interactor/BaseInteractor.ts
       - SpectaclesInteractionKit/Core/Interactor/ColliderTargetProvider.ts
       - SpectaclesInteractionKit/Core/Interactor/DirectTargetProvider.ts
@@ -293,6 +289,7 @@ CollapsedEntities:
       - SpectaclesInteractionKit/Core/Interactor/PokeTargetProvider.ts
       - SpectaclesInteractionKit/Core/Interactor/RayProvider.ts
       - SpectaclesInteractionKit/Core/Interactor/TouchRayProvider.ts
+      - SpectaclesInteractionKit/Core/Interactor/raycastAlgorithms
       - SpectaclesInteractionKit/Core/Interactor/raycastAlgorithms/AxisAngle.ts
       - SpectaclesInteractionKit/Core/Interactor/raycastAlgorithms/ContinousIrInteractionTransition.ts
       - SpectaclesInteractionKit/Core/Interactor/raycastAlgorithms/IrInteractionTransition.ts
@@ -303,6 +300,7 @@ CollapsedEntities:
       - SpectaclesInteractionKit/Core/Interactor/raycastAlgorithms/RaycastLegacySingleCamera.ts
       - SpectaclesInteractionKit/Core/Interactor/raycastAlgorithms/RaycastProxy.ts
       - SpectaclesInteractionKit/Core/Interactor/raycastAlgorithms/RgbIrTransitionJumpSuppressor.ts
+      - SpectaclesInteractionKit/Core/Interactor/raycastAlgorithms/SwitchIrInteractionTransition.ts
       - SpectaclesInteractionKit/Core/Interactor/raycastAlgorithms/TimeDataContainer.ts
       - SpectaclesInteractionKit/Core/Interactor/raycastAlgorithms/TimeScalarContainer.ts
       - SpectaclesInteractionKit/Core/Interactor/raycastAlgorithms/TimedVec2Container.ts
@@ -453,6 +451,23 @@ CollapsedEntities:
       - Unit Plane/Unit_Plane__PLACE_IN_OBJECTS_PANEL.prefab
       - World Mesh.mat
       - World Mesh.worldmesh
+      - dog1 1.fbx
+      - dog1 1.fbx/.hidden
+      - dog1 1.fbx/.hidden/collar
+      - dog1 1.fbx/.hidden/white
+      - dog1 1.fbx/Materials
+      - dog1 1.fbx/Materials/collar
+      - dog1 1.fbx/Materials/ear
+      - dog1 1.fbx/Materials/eye
+      - dog1 1.fbx/Materials/fur.001
+      - dog1 1.fbx/Materials/nose
+      - dog1 1.fbx/Meshes
+      - dog1 1.fbx/Meshes/dog
+      - dog1 1.fbx/Meshes/dog1
+      - dog1 1.fbx/Meshes/dog2
+      - dog1 1.fbx/Meshes/dog3
+      - dog1 1.fbx/Meshes/dog4
+      - dog1 1.fbx/dog1 1
       - dog1.fbx
       - dog1.fbx/.hidden
       - dog1.fbx/.hidden/collar
@@ -476,6 +491,19 @@ CollapsedEntities:
       - image_unlit.ss_graph
       - images 1.png
       - images.png
+      - kettlebell 1.fbx
+      - kettlebell 1.fbx/.hidden
+      - kettlebell 1.fbx/.hidden/24
+      - kettlebell 1.fbx/.hidden/white
+      - kettlebell 1.fbx/Materials
+      - kettlebell 1.fbx/Materials/24
+      - kettlebell 1.fbx/Materials/iron
+      - kettlebell 1.fbx/Materials/yellow
+      - kettlebell 1.fbx/Meshes
+      - kettlebell 1.fbx/Meshes/24
+      - kettlebell 1.fbx/Meshes/kettlebell
+      - kettlebell 1.fbx/Meshes/kettlebell1
+      - kettlebell 1.fbx/kettlebell 1
       - menu-button-icon-512x512-x86bgpt9.png
       - menu.js
       - pbr 1.ss_graph

@@ -1,0 +1,285 @@
+- !<AssetImportMetadata/3f7325ea-3d8e-4713-a5e2-fa8eaf8264f5>
+  ImportedAssetIds:
+    .hidden/24: !<reference> 4c581cbe-28ff-4372-a578-01f564cb60c0
+    .hidden/white: !<reference> 11afe134-35d6-4579-a110-b73e436dc263
+    16709615fd9395da: !<reference> 4a6bf6c5-3dbc-4510-9738-8daaa24cf6c8
+    2ab1b2c12efa9233: !<reference> fb51209f-e729-4507-9905-6ed40813ee4f
+    301dd0011f09bdc5: !<reference> e8489971-deae-46ea-b304-742615c8e52a
+    38b7b742025fb6bf: !<reference> bd1c41bf-c40e-48fa-881c-842011676654
+    49dbee68ce438986: !<reference> 9140e2d3-ecdd-4f7e-8efd-48729c628c97
+    63c7ae85e776bf60: !<reference> 4ddfef74-49cf-4b25-b364-57c551265b56
+    683ba510dfc8b870: !<reference> 0574804a-ced0-4fca-83fa-189f469715f0
+    7a0dd5cd69df73fa: !<reference> d3d515c4-a172-443a-b38c-c0270aa41d7b
+    Materials/24: !<reference> 6488efdb-d2a8-43a2-b3c2-c185b5530fc3
+    Materials/24|24|GraphPassInfo: !<reference> 2f464a3a-a761-43a8-84f1-ee311661e5c9
+    Materials/iron: !<reference> 9afb2a3a-85bf-469b-8793-e1d0e66b5755
+    Materials/iron|iron|GraphPassInfo: !<reference> 9b890ac4-f035-4715-b77a-ca1caa81a457
+    Materials/yellow: !<reference> 7f5433cb-9dcc-4481-802f-034abf7a3aa9
+    Materials/yellow|yellow|GraphPassInfo: !<reference> 1cdd7105-cddf-4eb1-a301-0a292d4bc418
+    Meshes/24: !<reference> 15109afc-29dd-4d2f-8f33-34d6b42db153
+    Meshes/kettlebell: !<reference> f1c12475-d72d-4720-a0c3-64da7356ef52
+    Meshes/kettlebell1: !<reference> 641ce3e0-9077-4093-ac2c-4a2766f449ce
+    Scene: !<reference> eec849f2-3317-4d7b-9398-e7de88a0d496
+    acff41998629e85a: !<reference> 1f02e52c-14f8-4b7d-8d1a-7672581b9096
+    fc7de966696cdbb6: !<reference> 2be03bfd-e3c6-4f6c-a579-d46a51dcb4e6
+  ImporterName: FbxImporter
+  PrimaryAsset: !<reference> eec849f2-3317-4d7b-9398-e7de88a0d496
+  PackageType: LegacyPackage
+  PackagePolicy: CanBeUnpacked
+  AssetDataMap:
+    Scene: !<own> 359cd757-7998-4712-a48d-8985226cba0b
+  DependentFiles:
+    []
+  ImporterSettings: !<FbxImporterSettings/2f605c44-9fda-406b-b18b-3ed64d538421>
+    UseLegacyImporter: false
+    WithMaterials: true
+    NamingConvention: ByCategorySanitize
+    PersistentIdGenerationAlgorithm: DescriptorBased
+    AnimationCurveOptimization: true
+    CustomAnimationSamplingRate: 30.000000
+    ImportVertexColor: true
+    ImportTangentsAndBinormals: true
+    RegenerateTangentsAndBinormals: false
+    RegenerateNormalsForSkinnedMeshes: true
+    ImportBlendShapeAnimation: true
+    ImportVertexAnimation: true
+    GeneratePivots: true
+    TriangulateNURBS: true
+    UseLegacyFbxLoader: false
+  CompressionSettings: !<ComplexCompressionSettings/3fc3d5ae-e117-401c-a0cc-64930fbd9282>
+    Presets:
+      None Compression: !<SingleCompressionSettings/2e9ee299-2951-4c6d-9313-4545c2ae3d26>
+        CompressorName: None
+        CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+      Performance Compression: !<SingleCompressionSettings/bc5d1bc4-0865-469c-9ba2-a7219242aae0>
+        CompressorName: Performance
+        CompressionSettings: !<TextureCompressionSettings/24552844-c696-4883-b224-926e9fac1b26>
+          Level: Medium
+    ExtensionMappings:
+      mesh: None Compression
+      jpg: Performance Compression
+    Overrides:
+      {}
+- !<LightSource/1b8dac56-2db2-42be-920f-73d34ca57b3d>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  renderLayer: 1
+  LightType: Point
+  Intensity: 1000.000000
+  CastShadows: false
+  ShadowDensity: 1.000000
+  ShadowBlurRadius: 0.000000
+  ShadowTextureSize: 512
+  AutoLightSourcePosition: false
+  AutoShadowFrustumSize: false
+  AutoShadowFrustumSizeExtend: 2.000000
+  ShadowFrustumSize: 30.000000
+  ShadowFrustumNearClipPlane: 1.000000
+  ShadowFrustumFarClipPlane: 1000.000000
+  UseEnvMapFromCamera: false
+  EnvMapFromCameraMode: Auto
+  UseEstimation: false
+  EstimationIntensity: 1.000000
+  EstimationSharpness: 1.000000
+  EnvMapExposure: 1.000000
+  EnvMapRotation: 0.000000
+  DiffuseEnvTexture: !<reference> 00000000-0000-0000-0000-000000000000
+  SpecularEnvTexture: !<reference> 00000000-0000-0000-0000-000000000000
+  Color: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowColor: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+  DynamicEnvInputTexture: !<reference> 00000000-0000-0000-0000-000000000000
+  InnerConeAngle: 0.000000
+  OuterConeAngle: 1.000000
+  DecayType: None
+  DecayLimit: false
+  DecayRange: 1.000000
+- !<SceneObject/2caf452d-b303-4a1b-881c-4f0526fca3d9>
+  PrefabRemaps:
+    []
+  Name: Camera
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 712.849792, y: 548.489380, z: 678.843933}
+    rotation: {x: -157.231201, y: 37.891670, z: -145.651505}
+    scale: {x: 100.000000, y: 100.000008, z: 99.999992}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 72501874-12bb-4ecf-a1f1-bee248fec0df
+- !<ObjectPrefabAssetData/359cd757-7998-4712-a48d-8985226cba0b>
+  SourceRemaps:
+    - 0574804a-ced0-4fca-83fa-189f469715f0: 1b8dac56-2db2-42be-920f-73d34ca57b3d
+    - 1f02e52c-14f8-4b7d-8d1a-7672581b9096: 2caf452d-b303-4a1b-881c-4f0526fca3d9
+    - 2be03bfd-e3c6-4f6c-a579-d46a51dcb4e6: f0720da1-b7aa-4ab0-9ffa-d43e8f1bbdc2
+    - 4a6bf6c5-3dbc-4510-9738-8daaa24cf6c8: d10798d3-6f71-4ca3-8f23-5e020dd6706c
+    - 4ddfef74-49cf-4b25-b364-57c551265b56: b1d3015a-6180-4e0b-b47d-7d9b7aa245c5
+    - 9140e2d3-ecdd-4f7e-8efd-48729c628c97: ae32e8cd-7377-46c4-a42d-d655554ad5c2
+    - bd1c41bf-c40e-48fa-881c-842011676654: 8ce31ffc-a27c-4902-8993-b122b6e592ea
+    - d3d515c4-a172-443a-b38c-c0270aa41d7b: d1d85eaa-903b-452e-b895-9f698187f269
+    - e8489971-deae-46ea-b304-742615c8e52a: 72501874-12bb-4ecf-a1f1-bee248fec0df
+    - fb51209f-e729-4507-9905-6ed40813ee4f: 618720f7-27a2-4c86-ae18-8f43e0d07d6d
+  SourceState: !<own> 9862049c-6e6d-4518-87fd-6539f3b71e09
+- !<RenderMeshVisual/618720f7-27a2-4c86-ae18-8f43e0d07d6d>
+  PrefabRemaps:
+    []
+  Name: component_4
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 6488efdb-d2a8-43a2-b3c2-c185b5530fc3
+  Mesh: !<reference> 15109afc-29dd-4d2f-8f33-34d6b42db153
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<Camera/72501874-12bb-4ecf-a1f1-bee248fec0df>
+  PrefabRemaps:
+    []
+  Name: component_1
+  Enabled: true
+  renderLayer: 1
+  MipmapLevel: 0
+  RenderOrder: 0
+  Size: 20.000000
+  Near: 10.000000
+  Far: 10000.000000
+  Fov: 79.195511
+  ClearColor: !<CameraClearColor/00000000-0000-0000-0000-000000000000>
+    Mode: None
+    Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+    InputTexture: !<reference> 00000000-0000-0000-0000-000000000000
+  ClearDepth: !<CameraClearDepth/00000000-0000-0000-0000-000000000000>
+    Mode: None
+    Value: 1.000000
+    InputTexture: !<reference> 00000000-0000-0000-0000-000000000000
+  Aspect: 1.000000
+  CameraType: Perspective
+  DepthMode: Regular
+  DeviceProperty: All
+  AspectPreset: Custom
+  OitLayers: NoOit
+  RenderTarget: !<reference> 00000000-0000-0000-0000-000000000000
+  DepthStencilRenderTarget: !<reference> 00000000-0000-0000-0000-000000000000
+  MaskTexture: !<reference> 00000000-0000-0000-0000-000000000000
+  RayTracing: !<reference> 00000000-0000-0000-0000-000000000000
+- !<RenderMeshVisual/8ce31ffc-a27c-4902-8993-b122b6e592ea>
+  PrefabRemaps:
+    []
+  Name: component_2
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 9afb2a3a-85bf-469b-8793-e1d0e66b5755
+  Mesh: !<reference> f1c12475-d72d-4720-a0c3-64da7356ef52
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<ObjectPrefab/9862049c-6e6d-4518-87fd-6539f3b71e09>
+  PackagePath: ""
+  objects:
+    - !<own> d1d85eaa-903b-452e-b895-9f698187f269
+  LazyLoading: false
+  RetainAssets: true
+- !<SceneObject/ae32e8cd-7377-46c4-a42d-d655554ad5c2>
+  PrefabRemaps:
+    []
+  Name: Light
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -85.952316, y: 543.438660, z: 806.225098}
+    rotation: {x: -132.466431, y: 72.779228, z: -169.256332}
+    scale: {x: 100.000008, y: 100.000000, z: 100.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 1b8dac56-2db2-42be-920f-73d34ca57b3d
+- !<RenderMeshVisual/b1d3015a-6180-4e0b-b47d-7d9b7aa245c5>
+  PrefabRemaps:
+    []
+  Name: component_3
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 7f5433cb-9dcc-4481-802f-034abf7a3aa9
+  Mesh: !<reference> 641ce3e0-9077-4093-ac2c-4a2766f449ce
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/d10798d3-6f71-4ca3-8f23-5e020dd6706c>
+  PrefabRemaps:
+    []
+  Name: 24
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: -90.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 69.893471, y: 69.893471, z: 69.893471}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 618720f7-27a2-4c86-ae18-8f43e0d07d6d
+- !<SceneObject/d1d85eaa-903b-452e-b895-9f698187f269>
+  PrefabRemaps:
+    []
+  Name: kettlebell 1
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> ae32e8cd-7377-46c4-a42d-d655554ad5c2
+    - !<own> 2caf452d-b303-4a1b-881c-4f0526fca3d9
+    - !<own> f0720da1-b7aa-4ab0-9ffa-d43e8f1bbdc2
+    - !<own> d10798d3-6f71-4ca3-8f23-5e020dd6706c
+  Components:
+    []
+- !<SceneObject/f0720da1-b7aa-4ab0-9ffa-d43e8f1bbdc2>
+  PrefabRemaps:
+    []
+  Name: kettlebell
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: -90.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 163.138535, y: 163.138535, z: 163.138535}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 8ce31ffc-a27c-4902-8993-b122b6e592ea
+    - !<own> b1d3015a-6180-4e0b-b47d-7d9b7aa245c5

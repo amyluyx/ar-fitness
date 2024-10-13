@@ -14,13 +14,13 @@ viewConfig:
     output: Live
     stereoOutputEye: Center
     deviceTypeOverride: Spectacles
-  cameraType: Front
+  cameraType: Back
 metaInfo:
   hints:
     []
   tags:
     []
-  lensName: Untitled
+  lensName: My AR Pup
   lensDescriptors:
     []
   lensApplicability:
