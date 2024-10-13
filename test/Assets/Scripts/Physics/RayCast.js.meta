@@ -1,0 +1,64 @@
+- !<AssetImportMetadata/4f877909-611b-40af-a00a-3331dc9a7de4>
+  ImporterSettings: !<AssetImporterSettings/269f7d68-5a75-48c0-98b5-f1ea61f688f5>
+    {}
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 3d0d90fe-166c-47a1-b95b-fa916cddb288
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 3d0d90fe-166c-47a1-b95b-fa916cddb288
+  PackageType: NotAPackage
+  AssetDataMap:
+    JavaScriptAsset: !<own> 1ba2907c-6ba3-47a4-929c-313a5ce05f5b
+  PackagePolicy: CannotBeUnpacked
+  DependentFiles:
+    []
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/1ba2907c-6ba3-47a4-929c-313a5ce05f5b>
+  Icon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 00000000-0000-0000-0000-000000000000
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    camera: false
+    customScript: false
+    debugLineMaterial: false
+    drawDebugLine: false
+    from: false
+    functionName: false
+    hitDebug: false
+    onTriggeredGlobalBehaviors: false
+    raycastAll: false
+    raycastOption: false
+    rootOnly: false
+    setWorldComponent: false
+    to: false
+    triggerEvents: false
+    worldComponent: false
+  ScriptTypesHidden:
+    {}
+  DefaultScriptInputs:
+    - raycastOption: ""
+      camera: !<reference.Camera> 00000000-0000-0000-0000-000000000000
+      from: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      to: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      raycastAll: false
+      rootOnly: false
+      setWorldComponent: false
+      worldComponent: !<reference.WorldComponent> 00000000-0000-0000-0000-000000000000
+      hitDebug: false
+      drawDebugLine: false
+      debugLineMaterial: !<reference.Material> 00000000-0000-0000-0000-000000000000
+      triggerEvents: ""
+      onTriggeredGlobalBehaviors: !<reference.ScriptComponent[]>
+        []
+      customScript: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      functionName: ""
+  SvgIcon: ""
+  ScriptTypes:
+    -
+      {}

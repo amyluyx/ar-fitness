@@ -1,0 +1,37 @@
+studioVersion:
+  major: 5
+  minor: 1
+  patch: 1
+  build: 24092500
+updateCheckpoint: 48
+sceneId: ee8f557f-ae79-43f6-8a8e-0e1c89c1a981
+viewConfig:
+  simulation:
+    device: No Simulation
+    cameraFov: 66.519997
+    fullFrameAspect: nan
+    viewport: Maximized
+    output: Live
+    stereoOutputEye: Center
+    deviceTypeOverride: Unknown
+  cameraType: Back
+metaInfo:
+  hints:
+    []
+  tags:
+    []
+  lensName: Physics
+  lensDescriptors:
+    []
+  lensApplicability:
+    - Front
+    - Back
+  lensClientCompatibilities:
+    - Mobile
+    - Web
+  iconHash: 2c11dfc65896ac288d8b3234920e3fc5
+  videoPreviewHash: ""
+  fromTemplateName: Physics
+  fromTemplateUrl: Lens Studio 5.1.1.24092500
+  activationCamera: Rear
+  sourceMapEnabled: false

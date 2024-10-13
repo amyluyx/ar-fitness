@@ -1,0 +1,106 @@
+- !<Material/e7594c79-5529-40df-8dda-f71e29b33caf>
+  PackagePath: ""
+  PassesInfo:
+    - !<own> 4df1e891-24fe-48aa-a7e7-f07eee41f98f
+- !<PassInfo/4df1e891-24fe-48aa-a7e7-f07eee41f98f>
+  DepthWrite: true
+  DepthTest: true
+  DepthFunction: LessEqual
+  TwoSided: false
+  ColorMask: {x: true, y: true, z: true, w: true}
+  CullMode: Back
+  PolygonOffset: {x: 0.000000, y: 0.000000}
+  FrustumCulling: Auto
+  FrustumCullPad: 0.000000
+  InstanceCount: 1
+  Defines:
+    []
+  BlendMode: Add
+  Properties:
+    Port_Center_N085:
+      typeIdx: 3
+      value: {x: 0.500000, y: 0.500000}
+    Port_Import_N025:
+      typeIdx: 1
+      value: 0.100000
+    Port_Import_N028:
+      typeIdx: 1
+      value: 20.000000
+    Port_Import_N091:
+      typeIdx: 3
+      value: {x: 1.000000, y: 1.000000}
+    Port_Input0_N020:
+      typeIdx: 1
+      value: 1.000000
+    Port_Input0_N027:
+      typeIdx: 1
+      value: 2.000000
+    Port_Input1_N015:
+      typeIdx: 3
+      value: {x: -1.000000, y: 1.000000}
+    Port_Input1_N021:
+      typeIdx: 1
+      value: 2.000000
+    Port_Input1_N022:
+      typeIdx: 1
+      value: 1.000000
+    Port_Input1_N024:
+      typeIdx: 1
+      value: -1.000000
+    Port_Input1_N030:
+      typeIdx: 1
+      value: 3.000000
+    Port_Input1_N033:
+      typeIdx: 1
+      value: 0.500000
+    Port_Input2_N030:
+      typeIdx: 1
+      value: 50.000000
+    Port_RangeMaxB_N039:
+      typeIdx: 1
+      value: 1.000000
+    Port_RangeMinA_N039:
+      typeIdx: 1
+      value: 0.000000
+    Port_RangeMinB_N039:
+      typeIdx: 1
+      value: 0.000000
+    PreviewEnabled:
+      typeIdx: 0
+      value: 0
+    baseColor:
+      typeIdx: 4
+      value: {x: 1.000000, y: 1.000000, z: 1.000000}
+    baseTex:
+      typeIdx: 9
+      value:
+        id: 26d0c9e2-9c86-49db-bfbf-c0fe7d6aa218
+        sampler:
+          filteringMode: Trilinear
+          wrapModeU: Repeat
+          wrapModeV: Repeat
+          wrapModeW: Repeat
+          borderColor: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+          mipmaps: false
+        type: Texture2D
+    baseTexBorderColor:
+      typeIdx: 5
+      value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    baseTexDims:
+      typeIdx: 5
+      value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    baseTexTransform:
+      typeIdx: 7
+      value:
+        0: {x: 1.000000, y: 0.000000, z: 0.000000}
+        1: {x: 0.000000, y: 1.000000, z: 0.000000}
+        2: {x: 0.000000, y: 0.000000, z: 1.000000}
+    baseTexUvMinMax:
+      typeIdx: 5
+      value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    uvScale:
+      typeIdx: 1
+      value: 0.005000
+  Pass: !<reference> 0bde17bf-37eb-4da8-accb-c0e0e778cdc2
+  RTCaster: false
+  RTReceiver: false

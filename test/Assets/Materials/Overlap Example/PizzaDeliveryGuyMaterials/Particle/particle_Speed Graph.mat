@@ -1,0 +1,339 @@
+- !<Material/be3362cf-6a01-4f95-9680-c6c629836a6b>
+  PackagePath: ""
+  PassesInfo:
+    - !<own> 53cdf897-3e24-4079-ad6f-9de81374157d
+- !<PassInfo/53cdf897-3e24-4079-ad6f-9de81374157d>
+  DepthWrite: false
+  DepthTest: true
+  DepthFunction: LessEqual
+  TwoSided: true
+  ColorMask: {x: true, y: true, z: true, w: true}
+  CullMode: Back
+  PolygonOffset: {x: 0.000000, y: 0.000000}
+  FrustumCulling: Auto
+  FrustumCullPad: 0.000000
+  InstanceCount: 1
+  Defines:
+    - ALPHADISSOLVE
+    - BASETEXTURE
+    - BOXSPAWN
+    - FLIPBOOKBLEND
+    - INILOCATION
+    - LIFETIMEMINMAX
+    - MAXPARTICLECOUNT
+    - NODE_67_DROPLIST_ITEM 1
+    - NOISE
+    - SIZEMINMAX
+    - VELOCITYDIR
+    - WORLDPOSSEED
+  BlendMode: Add
+  Properties:
+    ALIGNTOX:
+      typeIdx: 2
+      value: false
+    ALIGNTOY:
+      typeIdx: 2
+      value: false
+    ALIGNTOZ:
+      typeIdx: 2
+      value: false
+    PreviewEnabled:
+      typeIdx: 0
+      value: 0
+    alphaDissolveMult:
+      typeIdx: 1
+      value: 0.000000
+    alphaEnd:
+      typeIdx: 1
+      value: 1.000000
+    alphaMaxEnd:
+      typeIdx: 1
+      value: 0.500000
+    alphaMaxStart:
+      typeIdx: 1
+      value: 1.000000
+    alphaMinEnd:
+      typeIdx: 1
+      value: 0.000000
+    alphaMinStart:
+      typeIdx: 1
+      value: 1.000000
+    alphaStart:
+      typeIdx: 1
+      value: 0.000000
+    colorEnd:
+      typeIdx: 4
+      value: {x: 0.498039, y: 0.498039, z: 0.498039}
+    colorMaxEnd:
+      typeIdx: 4
+      value: {x: 1.000000, y: 1.000000, z: 1.000000}
+    colorMaxStart:
+      typeIdx: 4
+      value: {x: 1.000000, y: 1.000000, z: 1.000000}
+    colorMinEnd:
+      typeIdx: 4
+      value: {x: 1.000000, y: 1.000000, z: 1.000000}
+    colorMinStart:
+      typeIdx: 4
+      value: {x: 1.000000, y: 1.000000, z: 1.000000}
+    colorRampMult:
+      typeIdx: 5
+      value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    colorRampTexture:
+      typeIdx: 9
+      value:
+        id: ffffffff-ffff-ffff-ffff-ffffffffffff
+        sampler:
+          filteringMode: Trilinear
+          wrapModeU: Repeat
+          wrapModeV: Repeat
+          wrapModeW: Repeat
+          borderColor: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+          mipmaps: false
+        type: Texture2D
+    colorRampTextureBorderColor:
+      typeIdx: 5
+      value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    colorRampTextureDims:
+      typeIdx: 5
+      value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    colorRampTextureSize:
+      typeIdx: 5
+      value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    colorRampTextureTransform:
+      typeIdx: 7
+      value:
+        0: {x: 1.000000, y: 0.000000, z: 0.000000}
+        1: {x: 0.000000, y: 1.000000, z: 0.000000}
+        2: {x: 0.000000, y: 0.000000, z: 1.000000}
+    colorRampTextureUvMinMax:
+      typeIdx: 5
+      value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    colorStart:
+      typeIdx: 4
+      value: {x: 0.000000, y: 0.000000, z: 0.000000}
+    externalSeed:
+      typeIdx: 1
+      value: 0.100000
+    externalTimeInput:
+      typeIdx: 1
+      value: 0.000000
+    flipBookRandomStart:
+      typeIdx: 1
+      value: 4.000000
+    flipBookSpeedMult:
+      typeIdx: 1
+      value: 0.000000
+    flowSpeed:
+      typeIdx: 1
+      value: 0.000000
+    flowStrength:
+      typeIdx: 1
+      value: 0.000000
+    gravity:
+      typeIdx: 1
+      value: -50.000000
+    gridSize:
+      typeIdx: 3
+      value: {x: 4.000000, y: 4.000000}
+    lifeTimeConstant:
+      typeIdx: 1
+      value: 1.000000
+    lifeTimeMinMax:
+      typeIdx: 3
+      value: {x: 0.800000, y: 0.800000}
+    localForce:
+      typeIdx: 4
+      value: {x: 0.000000, y: 0.000000, z: 0.000000}
+    mainTexture:
+      typeIdx: 9
+      value:
+        id: c05617b9-f1a7-4924-83ad-9c57b8032884
+        sampler:
+          filteringMode: Bilinear
+          wrapModeU: Repeat
+          wrapModeV: Repeat
+          wrapModeW: Repeat
+          borderColor: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+          mipmaps: false
+        type: Texture2D
+    mainTextureBorderColor:
+      typeIdx: 5
+      value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    mainTextureDims:
+      typeIdx: 5
+      value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    mainTextureTransform:
+      typeIdx: 7
+      value:
+        0: {x: 1.000000, y: 0.000000, z: 0.000000}
+        1: {x: 0.000000, y: 1.000000, z: 0.000000}
+        2: {x: 0.000000, y: 0.000000, z: 1.000000}
+    mainTextureUvMinMax:
+      typeIdx: 5
+      value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    noiseFrequency:
+      typeIdx: 4
+      value: {x: 4.000000, y: 1.000000, z: 3.500000}
+    noiseMult:
+      typeIdx: 4
+      value: {x: 10.000000, y: 10.000000, z: 10.000000}
+    numValidFrames:
+      typeIdx: 1
+      value: 4.000000
+    overrideTimeElapsed:
+      typeIdx: 1
+      value: 0.000000
+    overrideTimeEnabled:
+      typeIdx: 0
+      value: 0
+    rotationDrag:
+      typeIdx: 1
+      value: 1.000000
+    rotationRandom:
+      typeIdx: 3
+      value: {x: -1.000000, y: 1.000000}
+    rotationRate:
+      typeIdx: 3
+      value: {x: 0.000000, y: 0.000000}
+    sNoiseFrequency:
+      typeIdx: 4
+      value: {x: 1.000000, y: 1.000000, z: 1.000000}
+    sNoiseMult:
+      typeIdx: 4
+      value: {x: 1.000000, y: 1.000000, z: 1.000000}
+    sizeEnd:
+      typeIdx: 3
+      value: {x: 0.000000, y: 0.000000}
+    sizeEndMax:
+      typeIdx: 3
+      value: {x: 0.500000, y: 0.500000}
+    sizeEndMin:
+      typeIdx: 3
+      value: {x: 0.500000, y: 0.500000}
+    sizeRampTexture:
+      typeIdx: 9
+      value:
+        id: ffffffff-ffff-ffff-ffff-ffffffffffff
+        sampler:
+          filteringMode: Trilinear
+          wrapModeU: Repeat
+          wrapModeV: Repeat
+          wrapModeW: Repeat
+          borderColor: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+          mipmaps: false
+        type: Texture2D
+    sizeRampTextureBorderColor:
+      typeIdx: 5
+      value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    sizeRampTextureDims:
+      typeIdx: 5
+      value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    sizeRampTextureTransform:
+      typeIdx: 7
+      value:
+        0: {x: 1.000000, y: 0.000000, z: 0.000000}
+        1: {x: 0.000000, y: 1.000000, z: 0.000000}
+        2: {x: 0.000000, y: 0.000000, z: 1.000000}
+    sizeRampTextureUvMinMax:
+      typeIdx: 5
+      value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    sizeSpeed:
+      typeIdx: 1
+      value: 1.000000
+    sizeStart:
+      typeIdx: 3
+      value: {x: 1.000000, y: 1.000000}
+    sizeStartMax:
+      typeIdx: 3
+      value: {x: 0.000000, y: 0.000000}
+    sizeStartMin:
+      typeIdx: 3
+      value: {x: 5.000000, y: 80.000000}
+    sizeVelScale:
+      typeIdx: 1
+      value: 5.000000
+    spawnBox:
+      typeIdx: 4
+      value: {x: 300.000000, y: 100.000000, z: 300.000000}
+    spawnDuration:
+      typeIdx: 1
+      value: 0.000000
+    spawnLocation:
+      typeIdx: 4
+      value: {x: 0.000000, y: 500.000000, z: 0.000000}
+    spawnMaxParticles:
+      typeIdx: 1
+      value: 61.000000
+    spawnSphere:
+      typeIdx: 4
+      value: {x: 1.000000, y: 1.000000, z: 1.000000}
+    timeGlobal:
+      typeIdx: 1
+      value: 1.000000
+    vectorTexture:
+      typeIdx: 9
+      value:
+        id: ffffffff-ffff-ffff-ffff-ffffffffffff
+        sampler:
+          filteringMode: Trilinear
+          wrapModeU: Repeat
+          wrapModeV: Repeat
+          wrapModeW: Repeat
+          borderColor: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+          mipmaps: false
+        type: Texture2D
+    vectorTextureBorderColor:
+      typeIdx: 5
+      value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    vectorTextureDims:
+      typeIdx: 5
+      value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    vectorTextureTransform:
+      typeIdx: 7
+      value:
+        0: {x: 1.000000, y: 0.000000, z: 0.000000}
+        1: {x: 0.000000, y: 1.000000, z: 0.000000}
+        2: {x: 0.000000, y: 0.000000, z: 1.000000}
+    vectorTextureUvMinMax:
+      typeIdx: 5
+      value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    velRampTexture:
+      typeIdx: 9
+      value:
+        id: ffffffff-ffff-ffff-ffff-ffffffffffff
+        sampler:
+          filteringMode: Trilinear
+          wrapModeU: Repeat
+          wrapModeV: Repeat
+          wrapModeW: Repeat
+          borderColor: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+          mipmaps: false
+        type: Texture2D
+    velRampTextureBorderColor:
+      typeIdx: 5
+      value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    velRampTextureDims:
+      typeIdx: 5
+      value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    velRampTextureTransform:
+      typeIdx: 7
+      value:
+        0: {x: 1.000000, y: 0.000000, z: 0.000000}
+        1: {x: 0.000000, y: 1.000000, z: 0.000000}
+        2: {x: 0.000000, y: 0.000000, z: 1.000000}
+    velRampTextureUvMinMax:
+      typeIdx: 5
+      value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    velocityDrag:
+      typeIdx: 4
+      value: {x: 1.000000, y: 1.000000, z: 1.000000}
+    velocityMax:
+      typeIdx: 4
+      value: {x: 0.000000, y: 0.000000, z: -2800.000000}
+    velocityMin:
+      typeIdx: 4
+      value: {x: 0.000000, y: 0.000000, z: -2800.000000}
+  Pass: !<reference> 2590bc19-4742-4e30-a7ad-48b783a462c6
+  RTCaster: false
+  RTReceiver: false

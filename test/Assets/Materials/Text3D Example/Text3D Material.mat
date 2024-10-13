@@ -1,0 +1,70 @@
+- !<Material/02a7d8d1-6061-4c04-88c8-f83b0753dc7b>
+  PackagePath: ""
+  PassesInfo:
+    - !<own> c8fc814e-d8b1-4e5c-b9b7-40b43d358a4f
+- !<PassInfo/c8fc814e-d8b1-4e5c-b9b7-40b43d358a4f>
+  DepthWrite: true
+  DepthTest: true
+  DepthFunction: LessEqual
+  TwoSided: true
+  ColorMask: {x: true, y: true, z: true, w: true}
+  CullMode: Back
+  PolygonOffset: {x: 0.000000, y: 0.000000}
+  FrustumCulling: Auto
+  FrustumCullPad: 0.000000
+  InstanceCount: 1
+  Defines:
+    - NODE_11_DROPLIST_ITEM 2
+    - NODE_151_DROPLIST_ITEM 2
+    - NODE_41_DROPLIST_ITEM 2
+    - NODE_9_DROPLIST_ITEM 2
+  BlendMode: PremultipliedAlphaAuto
+  Properties:
+    InnerEdgeStartingColor:
+      typeIdx: 5
+      value: {x: 0.470985, y: 0.794141, z: 0.998993, w: 1.000000}
+    Port_Default_N010:
+      typeIdx: 5
+      value: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+    Port_Default_N046:
+      typeIdx: 5
+      value: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+    Port_Default_N077:
+      typeIdx: 5
+      value: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+    Port_Default_N146:
+      typeIdx: 5
+      value: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+    Port_Input1_N014:
+      typeIdx: 1
+      value: 0.500000
+    Port_Input1_N043:
+      typeIdx: 1
+      value: 0.250000
+    Port_Input1_N054:
+      typeIdx: 1
+      value: 0.500000
+    PreviewEnabled:
+      typeIdx: 0
+      value: 0
+    backCapStartingColor:
+      typeIdx: 5
+      value: {x: 0.972656, y: 0.992767, z: 0.970535, w: 1.000000}
+    frontCapStartingColor:
+      typeIdx: 5
+      value: {x: 0.983719, y: 0.967620, z: 0.942657, w: 1.000000}
+    outerEdgeStartingColor:
+      typeIdx: 5
+      value: {x: 0.390723, y: 0.750866, z: 0.982986, w: 1.000000}
+    overrideTimeDelta:
+      typeIdx: 1
+      value: 0.000000
+    overrideTimeElapsed:
+      typeIdx: 1
+      value: 0.000000
+    overrideTimeEnabled:
+      typeIdx: 0
+      value: 0
+  Pass: !<reference> 1917a1cd-219e-4c36-9613-b7353c26db8f
+  RTCaster: false
+  RTReceiver: false

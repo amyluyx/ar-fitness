@@ -1,0 +1,41 @@
+- !<AssetImportMetadata/f0eb8d65-aef3-4df3-b9d8-f64a5a748fae>
+  ImporterSettings: !<AssetImporterSettings/ba8d20a2-d69c-4e30-b3a6-f5676222cf7a>
+    {}
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 2231892a-c0b4-494d-89bc-1e1c5c2db5dc
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 2231892a-c0b4-494d-89bc-1e1c5c2db5dc
+  PackageType: NotAPackage
+  AssetDataMap:
+    JavaScriptAsset: !<own> 304db50a-6011-48ba-bd32-320cb4c16ea5
+  PackagePolicy: CannotBeUnpacked
+  DependentFiles:
+    []
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/304db50a-6011-48ba-bd32-320cb4c16ea5>
+  Icon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 00000000-0000-0000-0000-000000000000
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    originalBlackMaterial: false
+    originalWhiteMaterial: false
+    pressedBlackMaterial: false
+    pressedWhiteMaterial: false
+  ScriptTypesHidden:
+    {}
+  DefaultScriptInputs:
+    - pressedWhiteMaterial: !<reference.Material> 00000000-0000-0000-0000-000000000000
+      originalWhiteMaterial: !<reference.Material> 00000000-0000-0000-0000-000000000000
+      pressedBlackMaterial: !<reference.Material> 00000000-0000-0000-0000-000000000000
+      originalBlackMaterial: !<reference.Material> 00000000-0000-0000-0000-000000000000
+  SvgIcon: ""
+  ScriptTypes:
+    -
+      {}
