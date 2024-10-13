@@ -5,6 +5,7 @@
     - !<own> 4c3d250f-6c80-4fc6-a1cd-744973f50914
     - !<own> d38b3f2b-1959-41c4-b816-2f8c28dcd969
     - !<own> 3d64a89f-ec18-4743-8107-649983503332
+    - !<own> a302962e-f421-45f0-93f3-16ca9da15b93
   layers: !<Layers/267ee9a7-aff2-4f9d-9a49-f71214747d03>
     userLayers:
       []
@@ -129,6 +130,23 @@
   DecayType: None
   DecayLimit: false
   DecayRange: 40.000000
+- !<Image/27248607-a524-44a1-a208-26316c1be5c4>
+  PrefabRemaps:
+    []
+  Name: Image
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Fit
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> af639d27-459b-4c4f-b8ce-895a81308e0a
+  FlipX: false
+  FlipY: false
+  Pivot: {x: 0.000000, y: 0.000000}
 - !<SceneObject/3d64a89f-ec18-4743-8107-649983503332>
   PrefabRemaps:
     []
@@ -141,7 +159,7 @@
     scale: {x: 1.000000, y: 1.000000, z: 1.000000}
     hasSegmentScaleCompensation: false
   Children:
-    - !<own> 61ad1451-b7b6-407a-97dc-54a3ca35426f
+    []
   Components:
     - !<own> 5a22c9de-ad2a-497f-8772-c4e3b7dd2b45
 - !<SceneObject/468dd585-8007-4bde-9d9c-c8d7924e6db9>
@@ -204,21 +222,6 @@
   DepthStencilRenderTarget: !<reference> 00000000-0000-0000-0000-000000000000
   MaskTexture: !<reference> 00000000-0000-0000-0000-000000000000
   RayTracing: !<reference> 00000000-0000-0000-0000-000000000000
-- !<SceneObject/61ad1451-b7b6-407a-97dc-54a3ca35426f>
-  PrefabRemaps:
-    []
-  Name: Effects
-  Enabled: true
-  Layers: 1
-  LocalTransform:
-    position: {x: 0.000000, y: 0.000000, z: 0.000000}
-    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
-    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
-    hasSegmentScaleCompensation: false
-  Children:
-    - !<own> 6e2bb5a8-016a-4a5f-b0da-b489b758586a
-  Components:
-    []
 - !<SceneObject/62989e46-2a01-49ff-82dc-313fa8bdfb2a>
   PrefabRemaps:
     []
@@ -234,26 +237,10 @@
     []
   Components:
     - !<own> be3c8b20-d634-403c-a391-56ffc6fa52a7
-- !<SceneObject/6e2bb5a8-016a-4a5f-b0da-b489b758586a>
+- !<SceneObject/79d47226-a28a-4152-98c3-4727bba93a3b>
   PrefabRemaps:
     []
-  Name: 3D Hand Tracking
-  Enabled: true
-  Layers: 1
-  LocalTransform:
-    position: {x: 0.000000, y: 0.000000, z: 0.000000}
-    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
-    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
-    hasSegmentScaleCompensation: false
-  Children:
-    - !<own> 76461169-b23f-41b8-a74c-c0b3141b922c
-    - !<own> 8899b083-736f-4be1-98a4-b6408f8cd31a
-  Components:
-    []
-- !<SceneObject/76461169-b23f-41b8-a74c-c0b3141b922c>
-  PrefabRemaps:
-    []
-  Name: 3D Hand Tracking Right
+  Name: Menu icon
   Enabled: true
   Layers: 1
   LocalTransform:
@@ -264,55 +251,22 @@
   Children:
     []
   Components:
-    - !<own> ffec93e4-029a-46c3-90e8-6225da52213b
-- !<SceneObject/7d884432-f28e-4c3a-a9d6-cbfb8ca172f6>
+    - !<own> fbcf6763-08b4-482c-ac08-ddbcef3773a6
+- !<SceneObject/a302962e-f421-45f0-93f3-16ca9da15b93>
   PrefabRemaps:
     []
-  Name: menu
+  Name: Menu Icon
   Enabled: true
   Layers: 1
   LocalTransform:
-    position: {x: 0.000000, y: 0.000000, z: 0.000000}
-    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    position: {x: -5.007475, y: 6.955433, z: -24.984520}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
     scale: {x: 1.000000, y: 1.000000, z: 1.000000}
     hasSegmentScaleCompensation: false
   Children:
-    []
+    - !<own> bd321332-37de-4c10-a663-94c3b0b623ac
   Components:
-    - !<own> 8de885b1-1bdb-4c7f-994c-f0bd78c02ecc
-- !<SceneObject/8899b083-736f-4be1-98a4-b6408f8cd31a>
-  PrefabRemaps:
     []
-  Name: 3D Hand Tracking Left
-  Enabled: true
-  Layers: 1
-  LocalTransform:
-    position: {x: 0.000000, y: 0.000000, z: 0.000000}
-    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
-    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
-    hasSegmentScaleCompensation: false
-  Children:
-    []
-  Components:
-    - !<own> fe63747a-0de4-447a-80c7-1deb19bdacdc
-- !<ScriptComponent/8de885b1-1bdb-4c7f-994c-f0bd78c02ecc>
-  PrefabRemaps:
-    []
-  Name: menu
-  Enabled: true
-  ScriptAsset: !<reference> 5e312359-c895-4c5a-bc0c-d344887c874a
-  ScriptInputsDefault:
-    menu: true
-    handTracking: true
-  ScriptTypesDefault:
-    {}
-  ScriptInputs:
-    "":
-      menu: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
-      handTracking: !<reference.HandTracking> 00000000-0000-0000-0000-000000000000
-  ScriptTypes:
-    "":
-      {}
 - !<ScriptComponent/aaf5d904-2788-4819-95e3-ad52c4f9c0e2>
   PrefabRemaps:
     []
@@ -329,6 +283,21 @@
   ScriptTypes:
     "":
       {}
+- !<SceneObject/bd321332-37de-4c10-a663-94c3b0b623ac>
+  PrefabRemaps:
+    []
+  Name: Menu Button
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 79d47226-a28a-4152-98c3-4727bba93a3b
+  Components:
+    - !<own> 27248607-a524-44a1-a208-26316c1be5c4
 - !<Text/be3c8b20-d634-403c-a391-56ffc6fa52a7>
   PrefabRemaps:
     []
@@ -406,7 +375,6 @@
   Children:
     - !<own> e5100f4e-1483-47f8-a252-b3f67da95b1b
     - !<own> 62989e46-2a01-49ff-82dc-313fa8bdfb2a
-    - !<own> 7d884432-f28e-4c3a-a9d6-cbfb8ca172f6
   Components:
     []
 - !<RenderMeshVisual/de66c3dd-b107-4eb4-874c-fc36a713a21a>
@@ -507,129 +475,20 @@
     LineSpacing: 1.000000
     CapitalizationOverride: None
   DepthTest: false
-- !<ObjectTracking3D/fe63747a-0de4-447a-80c7-1deb19bdacdc>
+- !<ScriptComponent/fbcf6763-08b4-482c-ac08-ddbcef3773a6>
   PrefabRemaps:
     []
-  Name: Object Tracking 3D
+  Name: Menu icon
   Enabled: true
-  ObjectIndex: 0
-  TrackingMode: ProportionsAndPose
-  TrackPosition: true
-  TrackingAsset: !<reference> 3b9f8274-5f15-42f6-be13-7557300bb7ef
-  AttachmentLabels:
-    - wrist
-    - wrist_to_thumb
-    - thumb-0
-    - thumb-1
-    - thumb-2
-    - thumb-3
-    - wrist_to_index
-    - index-0
-    - index-1
-    - index-2
-    - index-3
-    - wrist_to_mid
-    - mid-0
-    - mid-1
-    - mid-2
-    - mid-3
-    - wrist_to_ring
-    - ring-0
-    - ring-1
-    - ring-2
-    - ring-3
-    - wrist_to_pinky
-    - pinky-0
-    - pinky-1
-    - pinky-2
-    - pinky-3
-  AttachedObjects:
-    - !<reference> 00000000-0000-0000-0000-000000000000
-    - !<reference> 00000000-0000-0000-0000-000000000000
-    - !<reference> 00000000-0000-0000-0000-000000000000
-    - !<reference> 00000000-0000-0000-0000-000000000000
-    - !<reference> 00000000-0000-0000-0000-000000000000
-    - !<reference> 00000000-0000-0000-0000-000000000000
-    - !<reference> 00000000-0000-0000-0000-000000000000
-    - !<reference> 00000000-0000-0000-0000-000000000000
-    - !<reference> 00000000-0000-0000-0000-000000000000
-    - !<reference> 00000000-0000-0000-0000-000000000000
-    - !<reference> 00000000-0000-0000-0000-000000000000
-    - !<reference> 00000000-0000-0000-0000-000000000000
-    - !<reference> 00000000-0000-0000-0000-000000000000
-    - !<reference> 00000000-0000-0000-0000-000000000000
-    - !<reference> 00000000-0000-0000-0000-000000000000
-    - !<reference> 00000000-0000-0000-0000-000000000000
-    - !<reference> 00000000-0000-0000-0000-000000000000
-    - !<reference> 00000000-0000-0000-0000-000000000000
-    - !<reference> 00000000-0000-0000-0000-000000000000
-    - !<reference> 00000000-0000-0000-0000-000000000000
-    - !<reference> 00000000-0000-0000-0000-000000000000
-    - !<reference> 00000000-0000-0000-0000-000000000000
-    - !<reference> 00000000-0000-0000-0000-000000000000
-    - !<reference> 00000000-0000-0000-0000-000000000000
-    - !<reference> 00000000-0000-0000-0000-000000000000
-    - !<reference> 00000000-0000-0000-0000-000000000000
-- !<ObjectTracking3D/ffec93e4-029a-46c3-90e8-6225da52213b>
-  PrefabRemaps:
-    []
-  Name: Object Tracking 3D
-  Enabled: true
-  ObjectIndex: 0
-  TrackingMode: ProportionsAndPose
-  TrackPosition: true
-  TrackingAsset: !<reference> 08b8675e-1372-4cad-801a-122d7f5e4003
-  AttachmentLabels:
-    - wrist
-    - wrist_to_thumb
-    - thumb-0
-    - thumb-1
-    - thumb-2
-    - thumb-3
-    - wrist_to_index
-    - index-0
-    - index-1
-    - index-2
-    - index-3
-    - wrist_to_mid
-    - mid-0
-    - mid-1
-    - mid-2
-    - mid-3
-    - wrist_to_ring
-    - ring-0
-    - ring-1
-    - ring-2
-    - ring-3
-    - wrist_to_pinky
-    - pinky-0
-    - pinky-1
-    - pinky-2
-    - pinky-3
-  AttachedObjects:
-    - !<reference> 00000000-0000-0000-0000-000000000000
-    - !<reference> 00000000-0000-0000-0000-000000000000
-    - !<reference> 00000000-0000-0000-0000-000000000000
-    - !<reference> 00000000-0000-0000-0000-000000000000
-    - !<reference> 00000000-0000-0000-0000-000000000000
-    - !<reference> 00000000-0000-0000-0000-000000000000
-    - !<reference> 00000000-0000-0000-0000-000000000000
-    - !<reference> 00000000-0000-0000-0000-000000000000
-    - !<reference> 00000000-0000-0000-0000-000000000000
-    - !<reference> 00000000-0000-0000-0000-000000000000
-    - !<reference> 00000000-0000-0000-0000-000000000000
-    - !<reference> 00000000-0000-0000-0000-000000000000
-    - !<reference> 00000000-0000-0000-0000-000000000000
-    - !<reference> 00000000-0000-0000-0000-000000000000
-    - !<reference> 00000000-0000-0000-0000-000000000000
-    - !<reference> 00000000-0000-0000-0000-000000000000
-    - !<reference> 00000000-0000-0000-0000-000000000000
-    - !<reference> 00000000-0000-0000-0000-000000000000
-    - !<reference> 00000000-0000-0000-0000-000000000000
-    - !<reference> 00000000-0000-0000-0000-000000000000
-    - !<reference> 00000000-0000-0000-0000-000000000000
-    - !<reference> 00000000-0000-0000-0000-000000000000
-    - !<reference> 00000000-0000-0000-0000-000000000000
-    - !<reference> 00000000-0000-0000-0000-000000000000
-    - !<reference> 00000000-0000-0000-0000-000000000000
-    - !<reference> 00000000-0000-0000-0000-000000000000
+  ScriptAsset: !<reference> 8b1d3fdb-208e-4bbd-9669-d025b81ccb51
+  ScriptInputsDefault:
+    {}
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      menu: !<reference.SceneObject> d38b3f2b-1959-41c4-b816-2f8c28dcd969
+      menuButton: !<reference.ScriptComponent> fbcf6763-08b4-482c-ac08-ddbcef3773a6
+  ScriptTypes:
+    "":
+      {}

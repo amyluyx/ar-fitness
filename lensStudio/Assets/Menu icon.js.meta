@@ -1,18 +1,18 @@
-- !<AssetImportMetadata/ae6c7cfb-87ce-421f-8a1a-c73a41dde73c>
+- !<AssetImportMetadata/861f05b7-49d4-4333-990a-079f1c99ddff>
   ImportedAssetIds:
-    JavaScriptAsset: !<reference> 8ab19d32-c6ef-4c63-ac71-1602e27de1a7
+    JavaScriptAsset: !<reference> 8b1d3fdb-208e-4bbd-9669-d025b81ccb51
   ImporterName: JavaScriptAssetImporter
-  PrimaryAsset: !<reference> 8ab19d32-c6ef-4c63-ac71-1602e27de1a7
+  PrimaryAsset: !<reference> 8b1d3fdb-208e-4bbd-9669-d025b81ccb51
   PackageType: NotAPackage
   PackagePolicy: CannotBeUnpacked
   AssetDataMap:
-    JavaScriptAsset: !<own> e0b85b28-aca3-4a73-93ab-a8f62b527828
+    JavaScriptAsset: !<own> db6ae33f-5071-4c59-852b-deb70ec71bde
   DependentFiles:
     []
-  ImporterSettings: !<AssetImporterSettings/7175b9c8-299e-468a-863b-cd6fcdb6c277>
+  ImporterSettings: !<AssetImporterSettings/47f7eb08-5c0d-4eca-b4a7-1b8c12840a60>
     {}
   CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
-- !<ScriptAssetData/e0b85b28-aca3-4a73-93ab-a8f62b527828>
+- !<ScriptAssetData/db6ae33f-5071-4c59-852b-deb70ec71bde>
   SvgIcon: ""
   Description: ""
   InternalVersion: 0
@@ -24,12 +24,13 @@
   CurrentVisibility: Editable
   MaxVisibility: Editable
   ScriptInputsHidden:
-    {}
+    menu: false
+    menuButton: false
   ScriptTypesHidden:
     {}
   DefaultScriptInputs:
-    -
-      {}
+    - menuButton: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      menu: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
   ScriptTypes:
     -
       {}
