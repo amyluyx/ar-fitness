@@ -1,0 +1,23 @@
+CollapsedEntities:
+  type: stringset
+  value:
+    size: 17
+    values:
+      - 3D Hand Tracking Assets
+      - 3D Hand Tracking Assets/Hand Tracking Asset Left.handTracking3D
+      - 3D Hand Tracking Assets/Hand Tracking Asset Right.handTracking3D
+      - Base.png
+      - Box.mesh
+      - Echopark.hdr
+      - Image 1.mat
+      - Image.mat
+      - Image.png
+      - MaterialParams.png
+      - Normal.png
+      - PBR 1.mat
+      - PBR.mat
+      - flat.ss_graph
+      - menu.js
+      - pbr.ss_graph
+      - test.js
+  options: 4

@@ -1,0 +1,19 @@
+CollapsedEntities:
+  type: stringset
+  value:
+    size: 8
+    values:
+      - 0005641c-028d-459a-0000-000000014b4d
+      - 468dd585-8007-4bde-9d9c-c8d7924e6db9
+      - 4c3d250f-6c80-4fc6-a1cd-744973f50914
+      - 62989e46-2a01-49ff-82dc-313fa8bdfb2a
+      - 76461169-b23f-41b8-a74c-c0b3141b922c
+      - 8899b083-736f-4be1-98a4-b6408f8cd31a
+      - d38b3f2b-1959-41c4-b816-2f8c28dcd969
+      - e5100f4e-1483-47f8-a252-b3f67da95b1b
+  options: 4
+PinnedEntities:
+  type: "std::vector<Es::Uuid>"
+  value:
+    size: 0
+  options: 4
